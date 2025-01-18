@@ -83,7 +83,8 @@ header {
 }
 .row{
     display:flex;
-    flex-wrap:inherit;
+    /* flex-wrap:inherit; */
+    flex-wrap:wrap;
     
 }
 
@@ -96,7 +97,8 @@ ul{
     margin:0 auto;
 }
 .footer-col{
-    width: 40%;
+    flex: 1 0 40%;
+    /* width: 40%; */
     padding: 0 15px 0 15px; /* Top right Bottom Left */
     line-height: 1.5;
     font-family: 'Poppins', sans-serif;
@@ -118,7 +120,7 @@ ul{
 }
 .footer-col ul li a:hover {
     color:gold;
-    padding-left:8px;
+   /* padding-left:8px; */
    
 }
 /* The active selector style a link when the link has been selected  */
@@ -143,8 +145,8 @@ ul{
      background-color:rgba(126, 28, 28, 0.3); 
     margin:0 10px 10px 0;
     text-align: center;
-    line-height: 40%;
-    border-radius:40%;
+    line-height: 30%;  /*40% */
+    border-radius:50%; /*40% */
     color:#ffffff;
     transition: all 0.4s ease 0s;
 
@@ -166,7 +168,7 @@ ul{
     display: flex;
     flex-direction:column;
     align-items: flex-start;
-    width:45%;
+    /*width:45%; */
 }
 #Fiction header,#Travel header {
     width: 100%;
@@ -240,6 +242,7 @@ mark {
    
   
 }
+/* Hamnburger menu */
 .hamburger {
     position: fixed;
     top:20px;
