@@ -343,5 +343,9 @@ mark {
     font-size: 48px auto;
     padding: 26px;
   }
-
+  .feather-fixed {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
 
