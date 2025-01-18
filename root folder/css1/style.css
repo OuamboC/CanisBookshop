@@ -1,342 +1,342 @@
 @charset "UTF-8";
-*{
-    box-sizing:border-box ;
-    margin:0;
-    padding:0;
-    background-color: rgb(139, 139, 201); 
-    
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(139, 139, 201);
 }
-li,a,button {
-    font-family: sans-serif,Impact, 'Arial Narrow Bold';
-    font-weight: 500;
-    font-size: 16px;
-    color:rgb(0, 255, 42);
-    text-decoration:none;
+li,
+a,
+button {
+  font-family: sans-serif, Impact, "Arial Narrow Bold";
+  font-weight: 500;
+  font-size: 16px;
+  color: rgb(0, 255, 42);
+  text-decoration: none;
 }
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding:30px 10%;
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
 }
-.logo{
-    list-style: none;
+.logo {
+  list-style: none;
 }
-.main-nav{
-    list-style: none;
+.main-nav {
+  list-style: none;
 }
 .main-nav li {
-    display: inline-block;
-    padding: 0px 20px;
+  display: inline-block;
+  padding: 0px 20px;
 }
 .main-nav li a {
-    transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
-.main-nav li a:hover{
-    color:#0088A9;
+.main-nav li a:hover {
+  color: #0088a9;
 }
 /* The link selector style a link when the list has been unvisited */
 .main-nav li a:link {
-	color:blueviolet;
-	font-family:monospace;
+  color: blueviolet;
+  font-family: monospace;
 }
 /* The visited  selector style a link when the link is visited */
 .main-nav li a:visited {
-	color:rgb(51, 255, 204);
-	background-color: black;
+  color: rgb(51, 255, 204);
+  background-color: black;
 }
 /* The active selector style a link when the link has been selected  */
 .main-nav li a:active {
-	color:red;
-	font-size:150%;
+  color: red;
+  font-size: 150%;
 }
 /* Change the background-color and fint size of .cta (Call To action) when hovered */
 .cta:hover {
-    background-color: brown;
-    font-size: 300%;
+  background-color: brown;
+  font-size: 300%;
 }
 /* Set the basic styles for .button-style */
 .button-style {
-    padding:2px 10px;
-    background-color: black;
-    border:none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-  }
-  /* Change the background-color of .button-style when hovered */
-  .button-style:hover {
-    text-decoration: none;
-    background-color: brown;
-  }
+  padding: 2px 10px;
+  background-color: black;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+/* Change the background-color of .button-style when hovered */
+.button-style:hover {
+  text-decoration: none;
+  background-color: brown;
+}
 /* ALL CSS for the footer */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,800;1,600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,800;1,600&display=swap");
 
-.footer{
-   
-    padding: 70px 0;
-    justify-content: space-between;
-    clear:both;
-    
-    
+.footer {
+  padding: 70px 0;
+  justify-content: space-between;
+  clear: both;
 }
-.row{
-    display:flex;
-    /* flex-wrap:inherit; */
-    flex-wrap:wrap;
-    
+.row {
+  display: flex;
+  /* flex-wrap:inherit; */
+  flex-wrap: wrap;
 }
 
-ul{
-    list-style:none;
+ul {
+  list-style: none;
 }
-.FooterContainer{
-    max-width: 1170px;
-     background-color: grey; 
-    margin:0 auto;
+.FooterContainer {
+  max-width: 1170px;
+  background-color: grey;
+  margin: 0 auto;
 }
-.footer-col{
-    flex: 1 0 40%;
-    /* width: 40%; */
-    padding: 0 15px 0 15px; /* Top right Bottom Left */
-    line-height: 1.5;
-    font-family: 'Poppins', sans-serif;
+.footer-col {
+  flex: 1 0 40%;
+  /* width: 40%; */
+  padding: 0 15px 0 15px; /* Top right Bottom Left */
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
 }
 
-
-.footer-col h4{
-    font-size: 20px;
-    color:#ffffff;
-    text-transform: capitalize;
-    margin-bottom: 30px;
-    font-weight: 500;
-    position: relative;    
+.footer-col h4 {
+  font-size: 20px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-weight: 500;
+  position: relative;
 }
 
 .footer-col ul li a {
-    color:#ffffff;
-    padding-left:8px;
+  color: #ffffff;
+  padding-left: 8px;
 }
 .footer-col ul li a:hover {
-    color:gold;
-   /* padding-left:8px; */
-   
+  color: gold;
+  /* padding-left:8px; */
 }
 /* The active selector style a link when the link has been selected  */
-.footer-col ul li a:active{
-    color: red;
-    background-color: #CD5C5C;
+.footer-col ul li a:active {
+  color: red;
+  background-color: #cd5c5c;
 }
 /* The visited selector style a link when the list has been visited */
-.footer-col ul li a:visited{
-    color:#d6cfca;	
+.footer-col ul li a:visited {
+  color: #d6cfca;
 }
 /* The link selector style a link when the list has been unvisited */
-.footer-col ul li a:link{
-    color:#87CEEB;
-	font-size:75%;
-   
+.footer-col ul li a:link {
+  color: #87ceeb;
+  font-size: 75%;
 }
 .footer-col .social-links a {
-    display:inline-block;
-    height:30px;
-    width:40px;
-     background-color:rgba(126, 28, 28, 0.3); 
-    margin:0 10px 10px 0;
-    text-align: center;
-    line-height: 30%;  /*40% */
-    border-radius:50%; /*40% */
-    color:#ffffff;
-    transition: all 0.4s ease 0s;
-
+  display: inline-block;
+  height: 30px;
+  width: 40px;
+  background-color: rgba(126, 28, 28, 0.3);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 30%; /*40% */
+  border-radius: 50%; /*40% */
+  color: #ffffff;
+  transition: all 0.4s ease 0s;
 }
-.footer-col .social-links a:hover{
-   /* color:#24262b; */
-    background-color: #ffffff;
+.footer-col .social-links a:hover {
+  /* color:#24262b; */
+  background-color: #ffffff;
 }
 /*CSS For the main body of the page */
 
 #Fullcontainer {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1000px;
-    margin: 0 auto;
-    
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
 }
-#Fiction,#Travel {
-    display: flex;
-    flex-direction:column;
-    align-items: flex-start;
-    /*width:45%; */
+#Fiction,
+#Travel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /*width:45%; */
 }
-#Fiction header,#Travel header {
-    width: 100%;
+#Fiction header,
+#Travel header {
+  width: 100%;
 }
-#Fiction  article,#Travel article {
-    display: flex;
-    
-    align-items: flex-start;
-    margin-bottom: 20px;
+#Fiction article,
+#Travel article {
+  display: flex;
+
+  align-items: flex-start;
+  margin-bottom: 20px;
 }
 
-#Fiction img, #Travel img {
-    flex:0 0 150px;
-    width:150px;
-    margin-right:20px;
+#Fiction img,
+#Travel img {
+  flex: 0 0 150px;
+  width: 150px;
+  margin-right: 20px;
 }
-#Fiction p,#Travel p,#Fiction h3,#Fiction h3 {
-    margin:0;
+#Fiction p,
+#Travel p,
+#Fiction h3,
+#Fiction h3 {
+  margin: 0;
 }
 #Fiction {
-    border-right: 1px solid rgb(139, 139, 201);
+  border-right: 1px solid rgb(139, 139, 201);
 }
 
 /* Add media query for mobile devices */
-  @media (max-width: 767px)
-   {
-    #Fullcontainer {
-        flex-direction:column;
-    }
-    #Fiction, #Travel {
-        width: 100%;
-    }
-    #Fiction {
-        border-right:none;
-        border-bottom:1px solid rgb(139, 139, 201);
-    }
-
+@media (max-width: 767px) {
+  #Fullcontainer {
+    flex-direction: column;
   }
-  /* Card CSS */
+  #Fiction,
+  #Travel {
+    width: 100%;
+  }
+  #Fiction {
+    border-right: none;
+    border-bottom: 1px solid rgb(139, 139, 201);
+  }
+}
+/* Card CSS */
 .card-container {
-    display: flex;
-    align-items: flex-start;
-  }
-  
-  .card-container img {
-    margin-left:1em;
-  }
-  .card-container p {
-    margin:0;
-  }
-#CardNumber::placeholder{
-    color:black;
+  display: flex;
+  align-items: flex-start;
+}
+
+.card-container img {
+  margin-left: 1em;
+}
+.card-container p {
+  margin: 0;
+}
+#CardNumber::placeholder {
+  color: black;
 }
 #SecurityCode::placeholder {
-    color:black;
+  color: black;
 }
 mark {
-    background-color: yellow;
-    color:black;
+  background-color: yellow;
+  color: black;
 }
 #lastfour {
-    background-color: yellow;
-    color:black;
+  background-color: yellow;
+  color: black;
 }
 
-.FullCardContainer{
+.FullCardContainer {
   background-color: rgb(139, 139, 201);
-  color:black;
+  color: black;
   display: inline-block;
-   
-   
-  
 }
 /* Hamnburger menu */
 .hamburger {
-    position: fixed;
-    top:20px;
-    right: 20px;
-    z-index:99; 
-    display:block;
-    width: 35px; 
-    
-    cursor:pointer;
-    appearance: none;
-    background: none;
-    outline:none;
-    border:none;
-}
-.hamburger .bar, .hamburger:after,.hamburger:before {
-    content: "";
-    display: block;
-    width: 100%;
-    height:5px;
-    background-color: black;
-    margin:6px 0px;
-    transition: 0.4s;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 99;
+  display: block;
+  width: 35px;
 
+  cursor: pointer;
+  appearance: none;
+  background: none;
+  outline: none;
+  border: none;
+}
+.hamburger .bar,
+.hamburger:after,
+.hamburger:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0px;
+  transition: 0.4s;
 }
 .hamburger.is-active:before {
-    transform: rotate(-45deg) translate(-8px, 6px);
-
+  transform: rotate(-45deg) translate(-8px, 6px);
 }
 .hamburger.is-active:after {
-    transform: rotate(45deg) translate(-9px, -8px);
-
+  transform: rotate(45deg) translate(-9px, -8px);
 }
 .hamburger.is-active .bar {
-    opacity:0;
+  opacity: 0;
 }
 .mobile-nav {
-    display: block;
-    top: 0;
-    left: 100%;
-    height: 40vh;
-    width: 100%;
-    z-index:98;
-    background-color:rgb(139, 139, 201);
-    padding-top: 10px;
-    transition: 0.4s;
+  display: block;
+  top: 0;
+  left: 100%;
+  height: 40vh;
+  width: 100%;
+  z-index: 98;
+  background-color: rgb(139, 139, 201);
+  padding-top: 10px;
+  transition: 0.4s;
 }
-.mobile-nav.is-active{
-    
-     display:block;
-}
-    
-    .mobile-nav a {
-        display: block;
-        width:100%;
-        max-width: 200px;
-        margin: 0 auto 16px;
-        text-align: center;
-        padding: 12px 16px ;
-        background-color: purple;
-        color:azure;
-        text-decoration: none;
-    }
-.mobile-nav a:hover {
-    background-color: brown;
+.mobile-nav.is-active {
+  display: block;
 }
 
+.mobile-nav a {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto 16px;
+  text-align: center;
+  padding: 12px 16px;
+  background-color: purple;
+  color: azure;
+  text-decoration: none;
+}
+.mobile-nav a:hover {
+  background-color: brown;
+}
 
 @media (min-width: 768px) {
-    .mobile-nav.hidden{
-        display:none;
+  .mobile-nav.hidden {
+    display: none;
+  }
 
-    }
-
-    .hamburger {
-        display:none;
-
-    }
+  .hamburger {
+    display: none;
+  }
 }
 /* Add a hidden class for the main nav on smaller screens */
-@media  (max-width: 767px) {
-    .main-nav {
-        display: none ;
-    }
+@media (max-width: 767px) {
+  .main-nav {
+    display: none;
+  }
 }
 
 /* Hide the mobile nav by default */
 .mobile-nav {
-    display: none;
+  display: none;
 }
 
 /* Show the mobile nav when the is-active class is added */
 .mobile-nav.is-active {
-    display: block;
+  display: block;
 }
 
-
-
+/* Personal Information Section */
+.personal-info {
+  text-align: center;
+  margin-top: 20px;
+}
+.personal-info p {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.personal-info a {
+  margin: 5px;
+  display: inline-block;
+}
