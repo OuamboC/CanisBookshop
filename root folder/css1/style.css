@@ -338,19 +338,5 @@ mark {
     display: block;
 }
 
-.icon-link {
-    text-decoration: none;
-    font-size: 48px ;
-    padding: 26px;
-    background-color: green;
-  }
-  .feather-fixed {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-  }
-  .social-links {
-    display: flex;
-    gap: 20px;
-  }
+
 
