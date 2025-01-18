@@ -338,4 +338,10 @@ mark {
     display: block;
 }
 
+.icon-link {
+    text-decoration: none;
+    font-size: 48px auto;
+    padding: 26px;
+  }
+
 
