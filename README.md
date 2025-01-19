@@ -1,7 +1,7 @@
-# CanisBookshop
-My online store for 4 books runs on a local server. Customers select books, pay with MasterCard on the payment page, and validate the payment. If successful, they're redirected to a confirmation page. The website showcases optimized design and functionality for desktop and mobile, ensuring a secure and efficient user experience.
+## CanisBookshop
 
-You can view my online Curriculum Vitae (CV) by clicking the link below:
+Customers select books, pay with MasterCard on the payment page, and validate the payment. If successful, they're redirected to a confirmation page. The website showcases optimized design and functionality for desktop and mobile, ensuring a secure and efficient user experience.
 
+**Note:** This online shop is not operational, meaning you cannot make real purchases for any of the books.
 
-~ https://ouamboc.github.io/CanisBookshop/
+You can illustrate my Web Development by clicking the link [here](https://ouamboc.github.io/CanisBookshop/).
